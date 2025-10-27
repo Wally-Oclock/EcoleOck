@@ -30,4 +30,5 @@ Bios update :
 **convertir sa table de partitions de MBR à GPT et formatage DISKPART**
 <p align="center"> <img src="https://github.com/Wally-Oclock/EcoleOck/blob/main/Challenges/Images/S2-support/usb-MBRversGPTETFORMATF32.jpg" style="width:100%;"> 
 
-
+**NTFS-ok-Win11**
+<p align="center"> <img src="https://github.com/Wally-Oclock/EcoleOck/blob/main/Challenges/Images/S2-support/NTFS-ok-Win11.jpg" style="width:100%;"> 

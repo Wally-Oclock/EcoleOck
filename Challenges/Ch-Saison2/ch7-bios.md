@@ -25,7 +25,9 @@ Bios update :
  <p align="center"> <img src="https://github.com/Wally-Oclock/EcoleOck/blob/main/Challenges/Images/S2-support/20251027_144301.jpg" style="width:100%;"> 
 
 **Ajour clef usb sur VM**💻
+ <p align="center"> <img src="https://github.com/Wally-Oclock/EcoleOck/blob/main/Challenges/Images/S2-support/usb1.jpg" style="width:100%;"> 
 
-
+**convertir sa table de partitions de MBR à GPT et formatage DISKPART**
+<p align="center"> <img src="https://github.com/Wally-Oclock/EcoleOck/blob/main/Challenges/Images/S2-support/usb-MBRversGPTETFORMATF32.jpg" style="width:100%;"> 
 
 

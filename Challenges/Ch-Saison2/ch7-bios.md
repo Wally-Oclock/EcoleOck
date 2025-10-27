@@ -13,17 +13,21 @@
 
 ## **Accès au bios du laptop linux**💻
 
-Computrace Absolute : l’incroyable mouchard planqué dans le BIOS de millions de PC : <img src="F:\Github-oclock\EcoleOck\Challenges\Images\S2-support\dog.webp" style="zoom:25%;" />
-
-<img src="https://github.com/Wally-Oclock/EcoleOck/blob/main/Challenges/Images/S2-support/20251027_144617.jpg" />
-
+Computrace Absolute : l’incroyable mouchard planqué dans le BIOS de millions de PC : <p align="center"> <img src="https://github.com/Wally-Oclock/EcoleOck/blob/main/Challenges/Images/S2-support/dog.webp" style="width:10%;"> </p>
+<p align="center"> <img src="https://github.com/Wally-Oclock/EcoleOck/blob/main/Challenges/Images/S2-support/20251027_144617.jpg" style="width:100%;"> 
 Bios update : 
 
-![20251027_144301](F:\Github-oclock\EcoleOck\Challenges\Images\S2-support\20251027_144301.jpg)
+<p align="center"> <img src="https://github.com/Wally-Oclock/EcoleOck/blob/main/Challenges/Images/S2-support/20251027_144418.jpg" style="width:100%;"> 
+  
+<p align="center"> <img src="https://github.com/Wally-Oclock/EcoleOck/blob/main/Challenges/Images/S2-support/20251027_144126.jpg" style="width:100%;">
 
-Bios cpu :
+  Bios cpu :
+ <p align="center"> <img src="https://github.com/Wally-Oclock/EcoleOck/blob/main/Challenges/Images/S2-support/20251027_144301.jpg" style="width:100%;"> 
 
-![20251027_144301](F:\Github-oclock\EcoleOck\Challenges\Images\S2-support\20251027_144301.jpg)
+
+
+<img src="https://Github-oclock\EcoleOck\Challenges\Images\S2-support\20251027_144301.jpg">
 
 ![20251027_144126](F:\Github-oclock\EcoleOck\Challenges\Images\S2-support\20251027_144126.jpg)
+
 

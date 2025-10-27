@@ -1,4 +1,3 @@
-
 ## ⌨️ Challenge
 
 - Accédez au BIOS de votre ordinateur, et explorez les différentes pages, sections et réglages proposés !

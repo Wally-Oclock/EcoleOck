@@ -24,10 +24,7 @@ Bios update :
   Bios cpu :
  <p align="center"> <img src="https://github.com/Wally-Oclock/EcoleOck/blob/main/Challenges/Images/S2-support/20251027_144301.jpg" style="width:100%;"> 
 
+**Travail suite à venir**💻
 
-
-<img src="https://Github-oclock\EcoleOck\Challenges\Images\S2-support\20251027_144301.jpg">
-
-![20251027_144126](F:\Github-oclock\EcoleOck\Challenges\Images\S2-support\20251027_144126.jpg)
 
 

@@ -13,7 +13,11 @@
 
 ## **Accès au bios du laptop linux**💻
 
-Computrace Absolute : l’incroyable mouchard planqué dans le BIOS de millions de PC : <img src="F:\Github-oclock\EcoleOck\Challenges\Images\S2-support\dog.webp" style="zoom:25%;" />
+Computrace Absolute : l’incroyable mouchard planqué dans le BIOS de millions de PC : 
+
+Challenges/Images/S2-support/20251027_144617.jpg
+
+<img src="F:\Github-oclock\EcoleOck\Challenges\Images\S2-support\dog.webp" style="zoom:25%;" />
 
 ![20251027_144617](F:\Github-oclock\EcoleOck\Challenges\Images\S2-support\20251027_144617.jpg)
 
@@ -26,3 +30,4 @@ Bios cpu :
 ![20251027_144301](F:\Github-oclock\EcoleOck\Challenges\Images\S2-support\20251027_144301.jpg)
 
 ![20251027_144126](F:\Github-oclock\EcoleOck\Challenges\Images\S2-support\20251027_144126.jpg)
+

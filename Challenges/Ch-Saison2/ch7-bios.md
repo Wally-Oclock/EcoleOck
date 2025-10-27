@@ -24,7 +24,8 @@ Bios update :
   Bios cpu :
  <p align="center"> <img src="https://github.com/Wally-Oclock/EcoleOck/blob/main/Challenges/Images/S2-support/20251027_144301.jpg" style="width:100%;"> 
 
-**Travail suite à venir**💻
+**Ajour clef usb sur VM**💻
+
 
 
 

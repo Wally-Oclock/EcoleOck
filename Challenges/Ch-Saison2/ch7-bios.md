@@ -13,10 +13,9 @@
 
 ## **Accès au bios du laptop linux**💻
 
-Computrace Absolute : l’incroyable mouchard planqué dans le BIOS de millions de PC : <img src="ch7-bios.images/dog.webp" alt="dog" style="zoom:25%;" /> 
+Computrace Absolute : l’incroyable mouchard planqué dans le BIOS de millions de PC : <img src="ch7-bios.images/dog.webp" alt="dog" style="zoom:25%;"/>
 
 ![20251027_144617](ch7-bios.images/20251027_144617.jpg)
-
  
 
 ![20251027_144126](ch7-bios.images/20251027_144126.jpg)
@@ -39,4 +38,5 @@ Bios cpu :
 **NTFS-ok-Win11**
 
 ![NTFS-ok-Win11](ch7-bios.images/NTFS-ok-Win11.jpg)
+
 

@@ -7,14 +7,16 @@ Tester la compatibilité des fichiers en ouvrant un fichier créé dans Microsof
 Explorer les options de collaboration en ligne avec Microsoft Office (Office 365) ou LibreOffice (Collabora)
 Explorer le site https://www.clic-formation.net/
 ***
-Installation et configuration de LibreOffice et Excel
-![Libreoffice-install](https://github.com/user-attachments/assets/bb98b4db-3972-47e7-a8ef-5bcee3b2127c)
-![office-install](https://github.com/user-attachments/assets/db78e2e5-a57e-4edf-9d0f-fc18afb3f57c)
-Création d'un tableur et partage avec Excel et LibreOffice
-![Libreoffice-partage](https://github.com/user-attachments/assets/fa3856f7-a7d0-4318-b7e7-848f82a0da13)
-![libreoffice-odf](https://github.com/user-attachments/assets/94583064-3300-49ba-b4aa-9cc6fabe6ee5)
-Test de compatibilité
-![libreoffice-odf](https://github.com/user-attachments/assets/6869988a-2d93-4b47-b675-04690fbbf40b)
-![office-odfouvert-compatible](https://github.com/user-attachments/assets/b50b8a50-7df2-4d85-adb3-8db33bbace89)
-Clic-formations : site de tutos intéressant
-![clic-formation](https://github.com/user-attachments/assets/39581388-e80e-4cec-975e-d67654ef5fcd)
+![clic-formation](ch5-Outils-bureautiques.images/clic-formation.jpg)
+
+![Libreoffice-install](ch5-Outils-bureautiques.images/Libreoffice-install.jpg)
+
+![libreoffice-odf](ch5-Outils-bureautiques.images/libreoffice-odf.jpg)
+
+![Libreoffice-partage](ch5-Outils-bureautiques.images/Libreoffice-partage.jpg)
+
+![office-install](ch5-Outils-bureautiques.images/office-install.jpg)
+
+![office-odfouvert-compatible](ch5-Outils-bureautiques.images/office-odfouvert-compatible.jpg)
+
+![office-partage](ch5-Outils-bureautiques.images/office-partage.jpg)

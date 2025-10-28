@@ -1,8 +1,3 @@
-# Sauvez le pc de Mme Michu
-<p align="center">
-   <img src="/TravauxD/Images/MmeMichu/bvm.jpg" alt="[YOUR_ALT]"/>
-</p>
+![bvm](F:\EcoleOck\TravauxD\Images\MmeMichu\bvm.jpg)
 
-<p align="center">
-   <img src="/TravauxD/Images/MmeMichu/ok-cr.jpg" alt="[YOUR_ALT]"/>
-</p>
+![ok-cr](F:\EcoleOck\TravauxD\Images\MmeMichu\ok-cr.jpg)

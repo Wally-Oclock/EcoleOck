@@ -13,22 +13,30 @@
 
 ## **Accès au bios du laptop linux**💻
 
-Computrace Absolute : l’incroyable mouchard planqué dans le BIOS de millions de PC : <p align="center"> <img src="https://github.com/Wally-Oclock/EcoleOck/blob/main/Challenges/Images/S2-support/dog.webp" style="width:10%;"> </p>
-<p align="center"> <img src="https://github.com/Wally-Oclock/EcoleOck/blob/main/Challenges/Images/S2-support/20251027_144617.jpg" style="width:100%;"> 
-Bios update : 
+Computrace Absolute : l’incroyable mouchard planqué dans le BIOS de millions de PC : <img src="ch7-bios.images/dog.webp" alt="dog" style="zoom:25%;" /> 
 
-<p align="center"> <img src="https://github.com/Wally-Oclock/EcoleOck/blob/main/Challenges/Images/S2-support/20251027_144418.jpg" style="width:100%;"> 
-  
-<p align="center"> <img src="https://github.com/Wally-Oclock/EcoleOck/blob/main/Challenges/Images/S2-support/20251027_144126.jpg" style="width:100%;">
+![20251027_144617](ch7-bios.images/20251027_144617.jpg)
 
-  Bios cpu :
- <p align="center"> <img src="https://github.com/Wally-Oclock/EcoleOck/blob/main/Challenges/Images/S2-support/20251027_144301.jpg" style="width:100%;"> 
+ 
+
+![20251027_144126](ch7-bios.images/20251027_144126.jpg)
+
+Bios cpu :
+
+![20251027_144418](ch7-bios.images/20251027_144418.jpg)
+
+![20251027_144301](ch7-bios.images/20251027_144301.jpg)
 
 **Ajour clef usb sur VM**💻
- <p align="center"> <img src="https://github.com/Wally-Oclock/EcoleOck/blob/main/Challenges/Images/S2-support/usb1.jpg" style="width:100%;"> 
+
+![usb1](ch7-bios.images/usb1.jpg)
 
 **convertir sa table de partitions de MBR à GPT et formatage DISKPART**
-<p align="center"> <img src="https://github.com/Wally-Oclock/EcoleOck/blob/main/Challenges/Images/S2-support/usb-MBRversGPTETFORMATF32.jpg" style="width:100%;"> 
+
+![usb-MBRversGPTETFORMATF32](ch7-bios.images/usb-MBRversGPTETFORMATF32.jpg)
+
 
 **NTFS-ok-Win11**
-<p align="center"> <img src="https://github.com/Wally-Oclock/EcoleOck/blob/main/Challenges/Images/S2-support/NTFS-ok-Win11.jpg" style="width:100%;"> 
+
+![NTFS-ok-Win11](ch7-bios.images/NTFS-ok-Win11.jpg)
+

@@ -1,7 +1,5 @@
-<<<<<<< HEAD
-![bvm](F:\EcoleOck\TravauxD\Images\MmeMichu\bvm.jpg)
+# Sauvez le pc de Mme Michu
 
-![ok-cr](F:\EcoleOck\TravauxD\Images\MmeMichu\ok-cr.jpg)
-=======
+![bvm](Mme-Michu.images/bvm.jpg)
 
->>>>>>> 3d9da3ee887e6e136ceadf5b6d161121dd07afc5
+![ok-cr](Mme-Michu.images/ok-cr.jpg)

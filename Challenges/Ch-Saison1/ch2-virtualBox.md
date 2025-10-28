@@ -4,9 +4,6 @@ VirtualBox_3VM/
 # Résultats :
 
 
-
-# Fin #
-
 ![1-VB_3vm](ch2-virtualBox.images/1-VB_3vm.jpg)
 
 ![2-VB_win10_user1&2](ch2-virtualBox.images/2-VB_win10_user1&2.jpg)
@@ -20,3 +17,7 @@ VirtualBox_3VM/
 ![6-VB_win11local](ch2-virtualBox.images/6-VB_win11local.jpg)
 
 ![7-VB_ubunto](ch2-virtualBox.images/7-VB_ubunto.jpg)
+
+
+
+# Fin #

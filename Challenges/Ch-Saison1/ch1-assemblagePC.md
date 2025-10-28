@@ -1,4 +1,4 @@
-![carte pci express ethernet1go](ch1-assemblagePC.images/cartepciexpressethernet1go.jpg)
+![carte_pci_express_ethernet1go](ch1-assemblagePC.images/carte_pci_express_ethernet1go.jpg)
 
 ![connecteurs_1](ch1-assemblagePC.images/connecteurs_1.jpg)
 

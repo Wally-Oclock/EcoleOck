@@ -1,3 +1,3 @@
-![dog](./../Images/S2-support/dog.webp)
+![usb1](ChS2.images/usb1.jpg)
 
-![NTFS-ok-Win11](ChS2.assets/NTFS-ok-Win11.jpg)
+![20251027_144301](ChS2.images/20251027_144301.jpg)

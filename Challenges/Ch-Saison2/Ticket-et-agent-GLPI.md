@@ -45,6 +45,8 @@ Ajout et documentation dans la base connaissance d'une solution de contournement
 
 ![image-20251030161121096](Ticket-et-agent-GLPI.images/image-20251030161121096.png)
 
+##### Installation de l'outil GLPI sur UBUNTO 5ma 2ème machine sur le lan)
+
 ![20251030_164337](Ticket-et-agent-GLPI.images/20251030_164337.jpg)
 
 ![20251030_170054](Ticket-et-agent-GLPI.images/20251030_170054.jpg)
@@ -53,10 +55,14 @@ Ajout et documentation dans la base connaissance d'une solution de contournement
 
 ![20251030_173310](Ticket-et-agent-GLPI.images/20251030_173310.jpg)
 
+#### Installation de l'agent GLPI sur le pc hôte win 11
+
 ![20251030_173916](Ticket-et-agent-GLPI.images/20251030_173916.jpg)
 
 
 
 ![image-20251030190405031](Ticket-et-agent-GLPI.images/image-20251030190405031.png)
+
+#### Résultat visible depuis mes 2 pc :
 
 ![image-20251030191033608](Ticket-et-agent-GLPI.images/image-20251030191033608.png)

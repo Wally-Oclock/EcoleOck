@@ -45,7 +45,7 @@ Ajout et documentation dans la base connaissance d'une solution de contournement
 
 ![image-20251030161121096](Ticket-et-agent-GLPI.images/image-20251030161121096.png)
 
-##### Installation de l'outil GLPI sur UBUNTO 5ma 2ème machine sur le lan)
+##### Installation de l'outil GLPI sur UBUNTO ma 2ème machine sur le lan)
 
 ![20251030_164337](Ticket-et-agent-GLPI.images/20251030_164337.jpg)
 

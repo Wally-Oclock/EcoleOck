@@ -1,3 +1,3 @@
 ### Challenge-DHCP-Routage statique
 
-![image-20251107073400633](C:\Users\walim\AppData\Roaming\Typora\typora-user-images\image-20251107073400633.png)
+![labo-dhcp-routageStatic](https://github.com/user-attachments/assets/1f6a5194-3306-4f61-a67f-f1da2729423a)

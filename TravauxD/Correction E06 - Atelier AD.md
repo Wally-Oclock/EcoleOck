@@ -189,3 +189,7 @@ VSCODE / déployer par gpo https://github.com/letsdoautomation/group-policy/tree
 ![image-20251127154232425](Correction E06 - Atelier AD.images/image-20251127154232425.png)
 
 ![image-20251127154300717](Correction E06 - Atelier AD.images/image-20251127154300717.png)
+
+https://l.oclock.io/tiamat-debe9e8ed39d923077b77b9466be114a
+
+https://l.oclock.io/tiamat-0d861a7f600c2273694a0495529da563

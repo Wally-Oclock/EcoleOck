@@ -2,18 +2,18 @@
 
 
 
-![zonedns](F:\GitHub\EcoleOck\Challenges\Ch-Saison3\DNS-IIS\zonedns.png)
+![zonedns](DNS En pratique.images/zonedns.png)
 
 ### *IIS* 
 
 (*Internet Information Services*) est le serveur web fonctionnant sous Windows Server.
 
-![IIS](F:\GitHub\EcoleOck\Challenges\Ch-Saison3\DNS-IIS\IIS.png)
+![IIS](DNS En pratique.images/IIS.png)
 
 #### Site O'clock en pratique
 
-![image-20251130193033226](C:\Users\walim\AppData\Roaming\Typora\typora-user-images\image-20251130193033226.png)
+![image-20251130193033226](DNS En pratique.images/image-20251130193033226-1764527720171-4.png)
 
-![image-20251130193111028](C:\Users\walim\AppData\Roaming\Typora\typora-user-images\image-20251130193111028.png)
+image-20251130193111028
 
-![image-20251130193142419](C:\Users\walim\AppData\Roaming\Typora\typora-user-images\image-20251130193142419.png)
+![image-20251130193142419](DNS En pratique.images/image-20251130193142419.png)

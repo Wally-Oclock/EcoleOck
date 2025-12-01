@@ -10,7 +10,7 @@
 
   - > > > Restauration du dossier NTDS contenant les objets dont l'user supprimé
 
-    ![image-20251201162849131](C:\Users\walim\AppData\Roaming\Typora\typora-user-images\image-20251201162849131.png)
+    ![image-20251201162849131](E09 - IIS & Windows Server challenge.images/image-20251201162849131.png)
 
     ![image-20251201163716463](C:\Users\walim\AppData\Roaming\Typora\typora-user-images\image-20251201163716463.png)
 

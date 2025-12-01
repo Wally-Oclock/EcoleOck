@@ -78,7 +78,7 @@ Faire une sauvegarde sans attendre 21h l'heure programmée
 
 Pour la restauration :
 
-![image-20251201144129308](Sauvegarde.images/image-20251201144129308.png)
+![image-20251201144129308](Sauvegarde.images/image-20251201144129308-1764619025699-28.png)
 
 Test :
 

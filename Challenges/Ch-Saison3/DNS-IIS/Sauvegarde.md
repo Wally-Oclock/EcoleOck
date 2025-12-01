@@ -1,4 +1,4 @@
-![image-20251201091322408](F:\GitHub\EcoleOck\Challenges\Ch-Saison3\DNS-IIS\DNS En pratique.images\image-20251201091322408.png)
+![image-20251201091322408](DNS En pratique.images\image-20251201091322408.png)
 
 ![image-20251201091503273](F:\GitHub\EcoleOck\Challenges\Ch-Saison3\DNS-IIS\DNS En pratique.images\image-20251201091503273.png)
 

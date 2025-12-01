@@ -1,12 +1,12 @@
-![image-20251201091322408](F:\GitHub\EcoleOck\Challenges\Ch-Saison3\DNS-IIS\DNS En pratique.images\image-20251201091322408.png)
+![image-20251201091322408](Sauvegarde.images/image-20251201091322408.png)
 
-![image-20251201091503273](F:\GitHub\EcoleOck\Challenges\Ch-Saison3\DNS-IIS\DNS En pratique.images\image-20251201091503273.png)
+![image-20251201091503273](Sauvegarde.images/image-20251201091503273.png)
 
 Connaitre l'ip publique
 
-![image-20251201091801965](F:\GitHub\EcoleOck\Challenges\Ch-Saison3\DNS-IIS\DNS En pratique.images\image-20251201091801965.png)
+![image-20251201091801965](Sauvegarde.images/image-20251201091801965.png)
 
-![image-20251201092310759](F:\GitHub\EcoleOck\Challenges\Ch-Saison3\DNS-IIS\DNS En pratique.images\image-20251201092310759.png)
+![image-20251201092310759](Sauvegarde.images/image-20251201092310759.png)
 
 ![image-20251201092448823](F:\GitHub\EcoleOck\Challenges\Ch-Saison3\DNS-IIS\DNS En pratique.images\image-20251201092448823.png)
 

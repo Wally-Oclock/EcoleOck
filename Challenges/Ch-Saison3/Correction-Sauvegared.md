@@ -2,11 +2,11 @@ Correction
 
 suppression des sites et des dossiers de partage
 
-![image-20251202091737653](C:\Users\walim\AppData\Roaming\Typora\typora-user-images\image-20251202091737653.png)
+![image-20251202091737653](Correction-Sauvegared.images/image-20251202091737653.png)
 
 Plus de partage
 
-![image-20251202091914904](C:\Users\walim\AppData\Roaming\Typora\typora-user-images\image-20251202091914904.png)
+![image-20251202091914904](Correction-Sauvegared.images/image-20251202091914904.png)
 
 On restaure l'ad et ensuite les partages>>>on passe en mode sans échec car les services tournent toujours. On doit passer par le DSRM.
 

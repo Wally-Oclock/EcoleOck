@@ -1,0 +1,53 @@
+### RDS
+
+Serveur Remote Distance (Bureau à distance)
+
+Avantage : se connecter par exemple par raccourci sur une application sur un autre pc plus puissant que le mien. Ou une seule licence d'application que plusieurs personnes peuvent utiliser.
+
+On installe un rôle :
+
+![image-20251203133152875](RDS.images/image-20251203133152875-1764790451566-1.png)
+
+![image-20251203133237268](RDS.images/image-20251203133237268.png)
+
+Les cessions dans un premier temps :
+
+![image-20251203133849146](RDS.images/image-20251203133849146-1764790456722-3.png)
+
+![image-20251203134134940](RDS.images/image-20251203134134940-1764790459340-5.png)
+
+![image-20251203135318463](RDS.images/image-20251203135318463-1764790462691-7.png)
+
+![image-20251203140018625](RDS.images/image-20251203140018625-1764790465181-9.png)
+
+![image-20251203140640327](RDS.images/image-20251203140640327-1764790466981-11.png)
+
+![image-20251203140833544](RDS.images/image-20251203140833544-1764790468830-13-1764790476700-15.png)
+
+![image-20251203140909908](RDS.images/image-20251203140909908-1764790478600-17.png)
+
+![image-20251203141343106](RDS.images/image-20251203141343106-1764790480547-19.png)
+
+![image-20251203142630706](RDS.images/image-20251203142630706-1764790482886-21.png)
+
+Pour que le site soit accessible en https :
+
+![image-20251203143032440](RDS.images/image-20251203143032440-1764790485798-23.png)
+
+![image-20251203143304249](RDS.images/image-20251203143304249-1764790487634-25.png)
+
+![image-20251203143403312](RDS.images/image-20251203143403312-1764790489711-27.png)
+
+![image-20251203143451858](RDS.images/image-20251203143451858-1764790491541-29.png)
+
+![image-20251203143604828](RDS.images/image-20251203143604828-1764790494351-31.png)
+
+https://ws2025.oclock.lan/rdweb >>>>le site s'ouvre sur les différents explorateurs.
+
+![image-20251203144829599](RDS.images/image-20251203144829599-1764790496453-33.png)
+
+![image-20251203145011045](RDS.images/image-20251203145011045-1764790498194-35.png)
+
+![image-20251203145238711](RDS.images/image-20251203145238711-1764790503230-37.png)
+
+![image-20251203150748296](RDS.images/image-20251203150748296-1764790514216-39.png)

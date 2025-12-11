@@ -6,9 +6,13 @@
 
 ![image-20251203195251743](Challenge-RDS.images/image-20251203195251743-1764790615918-2.png)
 
+![image-20251204092308136](Challenge-RDS.images/image-202512040923081316.png)
+
 3 - Publier le programme
 
 ![image-20251203195442332](Challenge-RDS.images/image-20251203195442332.png)
+
+![image-20251204092626584](Challenge-RDS.images/image-202512040926264.png)
 
 4 - Je donne la permission d'utilisation aux 4 promotions
 

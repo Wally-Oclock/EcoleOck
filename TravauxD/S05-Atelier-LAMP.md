@@ -181,4 +181,12 @@ http://192.168.1.166/phpmyadmin
 
 ## Hyper-bonus : configuration de GLPI
 
-A suivre...
+sudo glpi-agent et ajout dans l'inventaire.
+
+![](S05-Atelier-LAMP/27.png)
+
+Install d'autres vm (ubunto, debian 13) et connexion à glpi depuis ce même réseau.
+
+![](S05-Atelier-LAMP/28.png)
+
+![](S05-Atelier-LAMP/29.png)

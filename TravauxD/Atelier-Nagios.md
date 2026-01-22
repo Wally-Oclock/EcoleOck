@@ -85,7 +85,7 @@ make all
 
 Je remarque une série d’erreurs, mais à la fon du prompt on a la réponse **"Enjoy"**
 
-![](atelier-Nagios.images/4.png)
+![](Atelier-Nagios.images/4-1769090811023-86.png)
 
 Une fois la compilation terminée, je dois exécuter certaines commandes afin d'installer Nagios et  ses fichiers de configuration.
 

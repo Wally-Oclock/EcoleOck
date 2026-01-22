@@ -442,4 +442,4 @@ Accédez à l'interface web de Nagios pour vérifier que votre serveur Ubuntu et
 
 http://10.0.0.124/nagios/
 
-![image-20260122134632110](Atelier-Nagios.images/image-20260122134632110.png)
+![image-20260122142627447](Atelier-Nagios.images/image-20260122142627447.png)

@@ -85,7 +85,7 @@ make all
 
 Je remarque une série d’erreurs, mais à la fon du prompt on a la réponse **"Enjoy"**
 
-![](Atelier-Nagios.images/4-1769089509308-9.png)
+![](atelier-Nagios.images/4.png)
 
 Une fois la compilation terminée, je dois exécuter certaines commandes afin d'installer Nagios et  ses fichiers de configuration.
 
@@ -112,7 +112,7 @@ Pour l'installer, j'exécute les commandes suivantes toujours dans le même rép
 make install-webconf
 ```
 
-![image-20260122101618950](Atelier-Nagios.images/image-20260122101618950.png)
+![](Atelier-Nagios.images/5-1769089878018-26.png)
 
 Et pour terminer cette étape, j'active le module Apache nécessaire, ainsi que le site et redémarre Apache :
 
@@ -151,7 +151,7 @@ Accédez à l'interface web de Nagios via votre navigateur en vous rendant à l�
 
 Nom d'utilisateur "nagiosadmin"  et le mot de passe que j'ai configuré.
 
-![image-20260122102337612](Atelier-Nagios.images/image-20260122102337612.png)
+![](Atelier-Nagios.images/6-1769089905044-28.png)
 
 #### Étape 1.9 : Installation des plugins
 
@@ -183,7 +183,7 @@ ls -l /usr/local/nagios/libexec/
 
 Je vois une liste de fichiers exécutables correspondant aux différents plugins disponibles pour Nagios. 
 
-![image-20260122103336070](Atelier-Nagios.images/image-20260122103336070.png)
+![](Atelier-Nagios.images/7-1769089925357-30.png)
 
 Une difficulté s'est posée, pour résoudre ce problème, j'ai exécuté cette commande en tant que root :
 
@@ -193,13 +193,13 @@ chmod u+s /bin/ping
 
 Le ping fonctionne correctement.
 
-![image-20260122103930594](Atelier-Nagios.images/image-20260122103930594.png)
+![](Atelier-Nagios.images/8-1769089941985-32.png)
 
 #### **Étape 1.9 : Configuration du pare-feu (facultatif)**
 
 J'ai vérifié si le firewall est activé sur mon serveur avec la commande : **sudo ufw status**
 
-![image-20260122104255802](Atelier-Nagios.images/image-20260122104255802.png)
+![](Atelier-Nagios.images/9-1769089962135-34.png)
 
 Si le pare-feu est actif, j'aurai autoriser l'accès à Apache sur votre serveur Ubuntu. Cela permettra d'autoriser l'accès au serveur web depuis l'extérieur : la commande est :
 
@@ -227,9 +227,9 @@ Les paramètres :
 2. **Install NCPA as a service** pour que l'agent démarre automatiquement. ✅
 3. Je définie un token, entrez un token (c’est un mot). Ce token sera utilisé pour les connexions sécurisées à l'API de NCPA. ✅
 
-![image-20260122105714636](Atelier-Nagios.images/image-20260122105714636.png)
+![](Atelier-Nagios.images/11-1769090054204-41.png)
 
-![image-20260122105945681](Atelier-Nagios.images/image-20260122105945681.png)
+![](Atelier-Nagios.images/12-1769090073335-43.png)
 
 4. J'accepte les paramètres par défaut pour l'agent (comme l'activation du port `5693` pour la communication). Pas d'activation non plus les checks passives vous pouvez directement faire next.
 
@@ -241,7 +241,7 @@ Une fois l'installation terminée, l'agent NCPA est en cours d'exécution en tan
 
 1. Sur le **Gestionnaire des tâches**, dans l'onglet **Services**, **"En cours d'exécution"**.
 
-![image-20260122110626317](Atelier-Nagios.images/image-20260122110626317.png)
+![](Atelier-Nagios.images/13-1769090093971-45.png)
 
 ### **Configuration du pare-feu Windows (facultatif)**
 
@@ -253,7 +253,7 @@ New-NetFirewallRule -DisplayName "NCPA" -Enabled True -Direction Inbound -Protoc
 
 J'ai vérifié l'ouverture du port 5693 sur win10 est il est ouvert :
 
-![image-20260122111600717](Atelier-Nagios.images/image-20260122111600717.png)
+![](Atelier-Nagios.images/14-1769090110106-47.png)
 
 ### **2.5 : Test de l'agent NCPA**
 
@@ -263,13 +263,13 @@ https://10.0.0.120:5693
 
 J'ai rentré "mytoken" défini lors de l'installation pour accéder à l'interface web. Je peux consulter les informations de performance de Windows 10 client.
 
-![image-20260122112119903](Atelier-Nagios.images/image-20260122112119903.png)
+![](Atelier-Nagios.images/15-1769090121579-49.png)
 
-![image-20260122112315133](Atelier-Nagios.images/image-20260122112315133.png)
+![](Atelier-Nagios.images/16-1769090134773-51.png)
 
-![image-20260122112359519](Atelier-Nagios.images/image-20260122112359519.png)
+![](Atelier-Nagios.images/17-1769090144422-53.png)
 
-![image-20260122112437338](Atelier-Nagios.images/image-20260122112437338.png)
+![](Atelier-Nagios.images/18-1769090156446-55.png)
 
 #### **2.6 : Configuration de NCPA sur le serveur Nagios**
 
@@ -284,19 +284,17 @@ mkdir servers
 nano /usr/local/nagios/etc/servers/windows_server.cfg
 ```
 
-![image-20260122113100925](Atelier-Nagios.images/image-20260122113100925.png)
+![](Atelier-Nagios.images/19-1769090174025-57.png)
 
+![](Atelier-Nagios.images/20-1769090192975-59.png)
 
+![](Atelier-Nagios.images/21-1769090212983-61.png)
 
-![image-20260122120622455](Atelier-Nagios.images/image-20260122120622455.png)
-
-![image-20260122115014157](Atelier-Nagios.images/image-20260122115014157.png)
-
-![image-20260122114937091](Atelier-Nagios.images/image-20260122114937091.png)
+![](Atelier-Nagios.images/22-1769090226177-63.png)
 
 #### **2.7 : Vérification dans l'interface Web de Nagios**
 
-J'accéde à l'interface web de Nagios via l'URL suivante :
+J'accède à l'interface web de Nagios via l'URL suivante :
 
 ```
 http://10.0.0.124/nagios
@@ -304,13 +302,13 @@ http://10.0.0.124/nagios
 
 Le serveur Windows est bien ajouté et les services configurés aussi. La charge CPU et l'utilisation de la mémoire sont correctement surveillés.
 
-![image-20260122120718590](Atelier-Nagios.images/image-20260122120718590.png)
+![](Atelier-Nagios.images/24-1769090311078-67.png)
 
-![image-20260122120845034](Atelier-Nagios.images/image-20260122120845034.png)
+![](Atelier-Nagios.images/25-1769090323367-69.png)
 
-![image-20260122121018124](Atelier-Nagios.images/image-20260122121018124.png)
+![](Atelier-Nagios.images/26-1769090344130-71.png)
 
-![image-20260122121052541](Atelier-Nagios.images/image-20260122121052541.png)
+![](Atelier-Nagios.images/27-1769090355629-73.png)
 
 ### **Étape 3 : Installation de l'Agent NCPA sur un Serveur Debian**
 
@@ -323,6 +321,8 @@ echo "deb [signed-by=/usr/share/keyrings/nagios.gpg] https://repo.nagios.com/deb
 > /etc/apt/sources.list.d/nagios.list
 ```
 
+![](Atelier-Nagios.images/29-1769090528375-78.png)
+
 ###### Add missing package : et les packages supplémentaires
 
 ```
@@ -334,8 +334,6 @@ apt install gnupg gnupg2 gnupg1
 ```
 wget -O /usr/share/keyrings/nagios.gpg https://repo.nagios.com/GPG-KEY-NAGIOS-V3
 ```
-
-![image-20260122133122379](Atelier-Nagios.images/image-20260122133122379.png)
 
 ###### Je fais un update des repositories
 
@@ -363,7 +361,7 @@ L'agent NCPA est maintenant installé, mais avant de pouvoir l'utiliser pour la 
 
    Cela vous permettra de modifier le mot de passe pour l'accès à l'API NCPA. Assurez-vous de choisir un mot de passe sécurisé, car il sera utilisé pour toutes les connexions API de Nagios.
 
-   ![image-20260122133412544](Atelier-Nagios.images/image-20260122133412544.png)
+   ![](Atelier-Nagios.images/30-1769090655883-82.png)
 
 3. **Vérifier le port d'écoute** : NCPA écoute par défaut sur le port **5693**. Si vous avez un pare-feu en place, vous devez vous assurer que ce port est ouvert.
 
@@ -380,17 +378,17 @@ systemctl start ncpa
 systemctl enable ncpa
 ```
 
-![image-20260122133019830](Atelier-Nagios.images/image-20260122133019830.png)
+![](Atelier-Nagios.images/28-1769090694019-84.png)
 
 ###### 3.4 : Tester l'interface Web de NCPA
 
 https://10.0.0.122:5693
 
-![image-20260122133634057](Atelier-Nagios.images/image-20260122133634057.png)
+![](Atelier-Nagios.images/31-1769089790689-22.png)
 
-![image-20260122133708155](Atelier-Nagios.images/image-20260122133708155.png)
+![](Atelier-Nagios.images/32-1769089780159-20.png)
 
-![image-20260122133757230](Atelier-Nagios.images/image-20260122133757230.png)
+![](Atelier-Nagios.images/33-1769089768463-18.png)
 
 3.5 : Configuration de NCPA pour Nagios
 
@@ -406,7 +404,7 @@ https://10.0.0.122:5693
 
    
 
-![image-20260122134100554](Atelier-Nagios.images/image-20260122134100554.png)
+![](Atelier-Nagios.images/34-1769089747446-16.png)
 
 1- Rechargez la configuration de Nagios pour appliquer les modifications :
 
@@ -434,7 +432,7 @@ chmod 777 /usr/local/nagios/libexec/check_ncpa.py
 apt install python-is-python3
 ```
 
-![image-20260122134525442](Atelier-Nagios.images/image-20260122134525442.png)
+![](Atelier-Nagios.images/35-1769089727152-14.png)
 
 #### **3.6 : Vérification de la surveillance dans l'interface Web de Nagios**
 
@@ -442,4 +440,4 @@ Accédez à l'interface web de Nagios pour vérifier que votre serveur Ubuntu et
 
 http://10.0.0.124/nagios/
 
-![image-20260122142627447](Atelier-Nagios.images/image-20260122142627447.png)
+![](Atelier-Nagios.images/36-1769089696075-12.png)

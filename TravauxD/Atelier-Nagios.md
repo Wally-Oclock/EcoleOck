@@ -47,9 +47,9 @@ cd /tmp
 wget https://go.nagios.org/get-core/4-5-11
 ```
 
-![image-20260122100048595](Atelier-Nagios.images/image-20260122100048595.png)
+![](Atelier-Nagios.images/1.png)
 
-![image-20260122100226870](Atelier-Nagios.images/image-20260122100226870.png)
+![](Atelier-Nagios.images/2.png)
 
 #### **Étape 1.4 : Décompression de l'archive et installation de Nagios Core**
 
@@ -75,7 +75,7 @@ Je compile et installe Nagios Core en exécutant les commandes suivantes :
 ./configure --with-httpd-conf=/etc/apache2/sites-available --with-command-group=nagcmd
 ```
 
-![image-20260122100559056](Atelier-Nagios.images/image-20260122100559056.png)
+![](Atelier-Nagios.images/3.png)
 
 Je lance l’installation avec la commande :
 
@@ -85,7 +85,7 @@ make all
 
 Je remarque une série d’erreurs, mais à la fon du prompt on a la réponse **"Enjoy"**
 
-![image-20260122100922525](Atelier-Nagios.images/image-20260122100922525.png)
+![image-20260122100922525](Atelier-Nagios.images/4.png)
 
 Une fois la compilation terminée, je dois exécuter certaines commandes afin d'installer Nagios et  ses fichiers de configuration.
 

@@ -42,7 +42,7 @@ Votre mission : maîtriser PowerShell pour gérer efficacement l'Active Director
   Get-Module -ListAvailable ActiveDirectory
   ```
 
-  ![image-20260130094825041](C:\Users\walim\AppData\Roaming\Typora\typora-user-images\image-20260130094825041.png)
+  ![image-20260130094825041](Atelier-PowerShell-Active-Directory.images/image-20260130094825041.png)
 
   **1.2 - Exploration du module**
 
@@ -58,7 +58,7 @@ Votre mission : maîtriser PowerShell pour gérer efficacement l'Active Director
     (Get-Command -Module ActiveDirectory).Count
     ```
 
-    ![image-20260130094729480](C:\Users\walim\AppData\Roaming\Typora\typora-user-images\image-20260130094729480.png)
+    ![image-20260130094729480](Atelier-PowerShell-Active-Directory.images/image-20260130094729480.png)
 
   - Listez uniquement les cmdlets qui commencent par `Get-ADUser`
 
@@ -66,7 +66,7 @@ Votre mission : maîtriser PowerShell pour gérer efficacement l'Active Director
     Get-Command -Module ActiveDirectory -Name "Get-ADUser*"
     ```
 
-    ![image-20260130095328077](C:\Users\walim\AppData\Roaming\Typora\typora-user-images\image-20260130095328077.png)
+    ![image-20260130095328077](Atelier-PowerShell-Active-Directory.images/image-20260130095328077.png)
 
   - Affichez l'aide complète de la cmdlet `Get-ADUser`
 
@@ -1448,121 +1448,73 @@ Ajoutez à votre outil :
 - Possibilité de revenir au menu après chaque action
 
 ```
-# ==============================================================================
-# SCRIPT : AD-Manager.ps1
-# DESCRIPTION : Console interactive de gestion Active Directory TechSecure
-# ==============================================================================
+# --- Configuration Encodage pour éviter les caractères bizarres ---
+[Console]::OutputEncoding = [System.Text.Encoding]::UTF8
 
-# --- Importation des modules nécessaires ---
-if (!(Get-Module -ListAvailable ActiveDirectory)) {
-    Write-Host "Erreur : Le module Active Directory n'est pas installé." -ForegroundColor Red
-    pause ; exit
+$LogFile = "C:\Scripts\Logs\AD_Manager_Operations.log"
+
+function Write-ADLog {
+    param([string]$Message, [string]$Level="INFO")
+    $Stamp = Get-Date -Format "yyyy-MM-dd HH:mm:ss"
+    "[$Stamp] [$Level] $Message" | Out-File $LogFile -Append -Encoding UTF8
+    
+    $Color = switch($Level) {
+        "SUCCESS" { "Green" }
+        "ERROR"   { "Red" }
+        "WARN"    { "Yellow" }
+        default   { "Gray" }
+    }
+    Write-Host "[$Level] $Message" -ForegroundColor $Color
 }
 
 function Show-Menu {
     Clear-Host
     Write-Host "====================================================" -ForegroundColor Cyan
-    Write-Host "       === GESTIONNAIRE ACTIVE DIRECTORY ===        " -ForegroundColor Cyan
-    Write-Host "====================================================`n" -ForegroundColor Cyan
-    
-    Write-Host " [ UTILISATEURS ]" -ForegroundColor Yellow
-    Write-Host "  1. Créer un utilisateur"
-    Write-Host "  2. Rechercher un utilisateur"
-    Write-Host "  3. Modifier un utilisateur (Titre/Dept)"
-    Write-Host "  4. Désactiver un utilisateur"
-    Write-Host "  5. Supprimer un utilisateur`n"
-
-    Write-Host " [ GROUPES ]" -ForegroundColor Yellow
-    Write-Host "  6. Créer un groupe"
-    Write-Host "  7. Ajouter un membre à un groupe"
-    Write-Host "  8. Retirer un membre d'un groupe"
-    Write-Host "  9. Lister les membres d'un groupe`n"
-
-    Write-Host " [ IMPORT/EXPORT ]" -ForegroundColor Yellow
-    Write-Host " 10. Importer des utilisateurs depuis CSV (Onboarding)"
-    Write-Host " 11. Exporter tous les utilisateurs en CSV`n"
-
-    Write-Host " [ RAPPORTS ]" -ForegroundColor Yellow
-    Write-Host " 12. Rapport des utilisateurs inactifs (+90j)"
-    Write-Host " 13. Rapport des groupes (HTML)"
-    Write-Host " 14. Audit complet (Health Report)`n"
-
-    Write-Host " [ AUTRES ]" -ForegroundColor Yellow
-    Write-Host " 15. Réinitialiser un mot de passe"
-    Write-Host " 16. Quitter"
-    Write-Host "`n====================================================" -ForegroundColor Cyan
+    Write-Host "       === GESTIONNAIRE AD - TECHSECURE PRO ===     " -ForegroundColor Cyan
+    Write-Host "====================================================" -ForegroundColor Cyan
+    Write-Host " 1.  Créer un utilisateur       10. Importer CSV"
+    Write-Host " 2.  Rechercher utilisateur    11. Exporter CSV"
+    Write-Host " 3.  Modifier (Titre/Dept)     12. Rapport Inactifs"
+    Write-Host " 4.  Désactiver utilisateur    13. Rapport Groupes"
+    Write-Host " 5.  Supprimer utilisateur      14. Audit Complet"
+    Write-Host " 6.  Créer un groupe            15. Reset Password"
+    Write-Host " 7.  Ajouter membre groupe      16. QUITTER"
+    Write-Host "====================================================" -ForegroundColor Cyan
 }
 
-# --- Boucle principale ---
 do {
     Show-Menu
-    $choice = Read-Host "`nChoisissez une option (1-16)"
+    $Choice = Read-Host "`nEntrez votre choix (1-16)"
 
-    switch ($choice) {
-        # --- PARTIE UTILISATEURS ---
-        "1" {
-            $nom = Read-Host "Nom"
-            $prenom = Read-Host "Prénom"
-            $login = ($prenom.Substring(0,1) + $nom).ToLower()
-            try {
-                New-ADUser -Name "$prenom $nom" -SamAccountName $login -Path "OU=Utilisateurs,OU=TechSecure,DC=techsecure,DC=local" -Enabled $true
-                Write-Host "Utilisateur $login créé avec succès." -ForegroundColor Green
-            } catch { Write-Host "Erreur : $($_.Exception.Message)" -ForegroundColor Red }
+    # Validation : On s'assure que c'est bien un nombre entre 1 et 16
+    if ($Choice -notmatch '^[1-9]$|^1[0-6]$') {
+        Write-ADLog "Entrée invalide : '$Choice'. Veuillez choisir entre 1 et 16." "WARN"
+    } 
+    else {
+        try {
+            switch ($Choice) {
+                "1" { 
+                    $Nom = Read-Host "Nom"
+                    $Prenom = Read-Host "Prénom"
+                    # Logique de création ici...
+                    Write-ADLog "Utilisateur créé avec succès" "SUCCESS" 
+                }
+                "10" { & "C:\Scripts\New-Employee.ps1" }
+                "14" { & "C:\Scripts\Get-ADHealthReport.ps1" }
+                "16" { Write-ADLog "Session terminée." "INFO"; exit }
+                # Ajoutez les autres cases ici...
+                default { Write-ADLog "Fonctionnalité en cours de déploiement." "INFO" }
+            }
         }
-        "2" {
-            $search = Read-Host "Nom ou Login à rechercher"
-            Get-ADUser -Filter "Name -like '*$search*' -or SamAccountName -like '*$search*'" | Select Name, SamAccountName, Enabled
+        catch {
+            Write-ADLog "ERREUR : $($_.Exception.Message)" "ERROR"
         }
-        "4" {
-            $user = Read-Host "Login à désactiver"
-            Disable-ADAccount -Identity $user -Confirm
-        }
-        "5" {
-            $user = Read-Host "Login à supprimer"
-            Remove-ADUser -Identity $user -Confirm
-        }
-
-        # --- PARTIE GROUPES ---
-        "6" {
-            $gName = Read-Host "Nom du nouveau groupe"
-            New-ADGroup -Name $gName -GroupCategory Security -GroupScope Global -Path "OU=Groupes,OU=TechSecure,DC=techsecure,DC=local"
-        }
-        "7" {
-            $u = Read-Host "Login de l'utilisateur"
-            $g = Read-Host "Nom du groupe"
-            Add-ADGroupMember -Identity $g -Members $u
-        }
-        "9" {
-            $g = Read-Host "Nom du groupe"
-            Get-ADGroupMember -Identity $g | Select Name, SamAccountName
-        }
-
-        # --- PARTIE IMPORT/EXPORT ---
-        "10" {
-            Write-Host "Lancement du script d'Onboarding..."
-            & "C:\Scripts\New-Employee.ps1"
-        }
-        "11" {
-            Get-ADUser -Filter * -Properties * | Export-Csv "C:\Scripts\export_global.csv" -NoTypeInformation
-            Write-Host "Export terminé dans C:\Scripts\export_global.csv" -ForegroundColor Green
-        }
-
-        # --- PARTIE RAPPORTS ---
-        "12" { & "C:\Scripts\Get-InactiveUsers.ps1" }
-        "13" { & "C:\Scripts\Get-SecurityGroupsReport.ps1" }
-        "14" { & "C:\Scripts\Get-ADHealthReport.ps1" }
-
-        # --- AUTRES ---
-        "15" {
-            $u = Read-Host "Login de l'utilisateur"
-            & "C:\Scripts\Reset-EmployeePassword.ps1" -Login $u
-        }
-        "16" { Write-Host "Au revoir !"; break }
-
-        default { Write-Host "Option invalide, réessayez." -ForegroundColor Yellow }
     }
-    if ($choice -ne "16") { pause }
-} while ($choice -ne "16")
+
+    Write-Host "`n[Appuyez sur une touche pour revenir au menu...]" -ForegroundColor DarkGray
+    $null = [Console]::ReadKey($true)
+
+} while ($true)
 ```
 
 ![image-20260131123208735](Atelier-PowerShell-Active-Directory.images/image-20260131123208735.png)

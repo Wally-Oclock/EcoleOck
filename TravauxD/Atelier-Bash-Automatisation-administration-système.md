@@ -40,7 +40,7 @@ Créer un script `backup.sh` qui automatise la sauvegarde des répertoires criti
 
 - Affiche un message de confirmation avec la taille de l'archive créée
 
-  > [!TIP]
+  > [!NOTE]
   >
   > Serveurs debian
   >

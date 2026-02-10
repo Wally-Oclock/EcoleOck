@@ -1,0 +1,149 @@
+# Correction challenges C01
+
+Ces challenges sont un projet fil rouge a suivre toute la saison C01
+
+## Énoncé E1
+
+### Contexte
+
+Vous êtes responsable de l'informatique au sein d'un campus de formation professionnelle (en présentiel 😁).
+
+Le campus compte en permanence environ 500 personnes, entre les salariés (une quinzaine), les formateurs (freelances, formateurs occasionnels) et les apprenants (formation continue et alternance).
+
+La direction vous demande de moderniser l’infrastructure IT du campus pour accueillir de nouveaux services numériques : serveurs fichiers, NAS, firewall, VLAN et accès sécurisé Wi-Fi.
+
+Dans votre service, vous accueillez actuellement un alternant.
+
+### Consignes
+
+Rédigez la fiche de cadrage du projet comprenant :
+
+- Objectifs du projet
+- Périmètre et exclusions
+- Parties prenantes (interne / externe)
+- Livrables principaux
+- Contraintes Qualité / Coût / Délai
+
+### Notes
+
+- Vous pouvez rédiger votre document avec l'outil de votre choix (Google Doc, fichier Markdown...)
+- Gardez bien le fichier : il servira pour la suite !
+- Prenez le temps de chercher de la documentation sur le sujet
+- On ne demande pas d'être exhaustif, chaque partie peut ne contenir que quelques points
+
+À faire également
+Lire le Manifeste pour le développement Agile de logiciels: https://agilemanifesto.org/iso/fr/manifesto.html
+
+Commenter le Manifeste (questions, points positifs, critiques…) dans un fichier (libre choix de l’outil).
+
+# Proposition de correction - Challenge E01
+
+## Correction
+
+## Fiche de cadrage du projet
+
+### Contexte
+
+Le campus souhaite moderniser son infrastructure IT afin de supporter de nouveaux services numériques répondant aux besoins des utilisateurs. Ce projet vise à garantir la disponibilité et la sécurité des services informatiques, tout en respectant les contraintes budgétaires et temporelles imposées. L'infrastructure modernisée doit faciliter l'accès aux ressources numériques pour l'ensemble des utilisateurs : apprenants, formateurs et personnel administratif.
+
+### Objectifs du projet
+
+Les objectifs principaux du projet sont les suivants :
+
+- Déployer une infrastructure IT moderne et sécurisée, adaptée aux besoins actuels et futurs du campus.
+- Assurer la continuité de service pour garantir un fonctionnement sans interruption des activités pédagogiques et administratives.
+- Garantir l'intégrité, la confidentialité et la disponibilité des données hébergées sur l'infrastructure.
+- Permettre une meilleure collaboration entre les utilisateurs grâce à un accès simplifié et sécurisé aux services numériques.
+
+### Périmètre du projet
+
+#### Inclus dans le périmètre
+
+Le projet inclut la mise en œuvre des éléments suivants :
+
+- **Serveur de fichiers centralisé** : mise en place d'un serveur permettant le stockage centralisé et le partage sécurisé des documents pour l'ensemble des utilisateurs du campus.
+- **NAS (Network Attached Storage)** : déploiement d'une solution de stockage réseau dédiée à la sauvegarde automatique et à la restauration des données critiques.
+- **Firewall avec segmentation VLAN** : installation et configuration d'un pare-feu pour sécuriser le réseau, accompagné d'une segmentation en réseaux virtuels (VLAN) pour isoler les différents types de trafic (administration, pédagogie, invités).
+- **Accès Wi-Fi sécurisé** : déploiement d'un réseau sans fil couvrant l'ensemble du campus, avec authentification sécurisée et gestion des accès différenciés selon les profils utilisateurs.
+- **Supervision et monitoring** : mise en place d'outils de surveillance de l'infrastructure permettant de détecter les incidents et d'anticiper les pannes.
+
+#### Exclus du périmètre
+
+Les éléments suivants sont explicitement exclus du périmètre du projet :
+
+- **Gestion des postes utilisateurs** : l'administration, la maintenance et le support des ordinateurs individuels ne font pas partie de ce projet.
+- **Migration d'anciennes applications non critiques** : seules les applications essentielles au fonctionnement du campus seront prises en compte.
+- **Développement d'applications métier spécifiques** : aucun développement logiciel sur mesure n'est prévu dans le cadre de ce projet.
+
+### Parties prenantes
+
+Les parties prenantes du projet se répartissent en acteurs internes et externes :
+
+- **Direction du campus** : elle assure le rôle de sponsor du projet, valide les orientations stratégiques et arbitre les décisions importantes concernant le budget et les priorités.
+- **Service IT** : composé des administrateurs systèmes et réseaux, ainsi que du responsable technique, ce service pilote la conception, le déploiement et la maintenance de l'infrastructure. L'alternant participe activement au projet sous supervision.
+- **Fournisseurs externes** : ils assurent la fourniture du matériel réseau (switchs, routeurs, points d'accès Wi-Fi), des serveurs, du NAS, du firewall et des licences logicielles nécessaires.
+- **Utilisateurs finaux** : les apprenants, les formateurs et le personnel administratif sont les bénéficiaires directs des services déployés. Leurs retours d'expérience permettront d'ajuster les solutions mises en place.
+
+### Livrables principaux
+
+Les livrables attendus tout au long du projet sont les suivants :
+
+- **Fiche de cadrage du projet** : document définissant le contexte, les objectifs, le périmètre et les contraintes du projet.
+- **WBS (Work Breakdown Structure)** : décomposition structurée du projet en tâches et sous-tâches, accompagnée d'un diagramme de Gantt pour planifier les différentes phases dans le temps.
+- **Matrice RACI** : tableau précisant les rôles et responsabilités de chaque partie prenante (Responsable, Autorité, Consulté, Informé) pour chaque tâche du projet.
+- **Registre des risques avec plan de traitement** : identification des risques potentiels (techniques, organisationnels, budgétaires) et définition des actions préventives ou correctives associées.
+- **Mini-plan de reprise d'activité (PRA) et plan de continuité d'activité (PCA)** : documentation des procédures à suivre en cas d'incident majeur pour assurer la continuité des services critiques.
+- **Tableau de bord de suivi de projet** : outil de pilotage permettant de suivre l'avancement du projet, les écarts par rapport au planning, le budget consommé et les indicateurs de qualité.
+
+### Contraintes Qualité, Coût et Délai (QCD)
+
+Le projet est soumis aux contraintes suivantes, qui constituent le triangle QCD :
+
+- **Qualité** : l'infrastructure déployée doit être sécurisée, fiable et conforme aux standards techniques du secteur (normes ISO, bonnes pratiques ITIL, etc.). La solution doit garantir la disponibilité des services et la protection des données.
+- **Coût** : le projet doit respecter le budget alloué par la direction. Les achats de matériel et de licences doivent être optimisés en comparant différentes offres et en privilégiant un bon rapport qualité-prix.
+- **Délai** : le projet doit être réalisé dans un délai contraint de 5 semaines, de la phase de conception jusqu'à la mise en production de l'infrastructure.
+
+### Méthode de gestion recommandée
+
+Pour mener à bien ce projet, plusieurs approches méthodologiques peuvent être combinées :
+
+- **Cycle en V** : cette méthode séquentielle structure le projet en phases distinctes (analyse des besoins, conception, réalisation, tests, validation). Elle permet de garantir que chaque étape est validée avant de passer à la suivante, ce qui est particulièrement adapté aux projets d'infrastructure où la sécurité et la fiabilité sont critiques.
+- **Méthode Agile** : l'utilisation de sprints courts permet d'apporter de la flexibilité au projet. Des ajustements peuvent être réalisés rapidement en fonction des retours terrain ou des contraintes techniques découvertes en cours de route.
+- **Approche DevOps** : cette approche favorise l'automatisation de la configuration des serveurs, du déploiement des services et des tests. Elle permet de gagner du temps, de réduire les erreurs humaines et d'assurer une mise en production plus rapide et fiable.
+
+### Commentaires sur l'application des principes Agile
+
+Bien que le projet repose sur une infrastructure technique, certains principes du manifeste Agile peuvent être appliqués avec profit :
+
+- **Priorisation des fonctionnalités critiques** : la sécurité des accès (firewall, VLAN, Wi-Fi sécurisé) et la continuité de service (NAS, sauvegardes) doivent être traitées en priorité. Les fonctionnalités secondaires peuvent être déployées dans un second temps.
+- **Collaboration continue** : des échanges réguliers entre l'équipe IT et les utilisateurs finaux (formateurs, apprenants, personnel) permettent de valider que les solutions répondent aux besoins réels et d'ajuster les configurations si nécessaire.
+- **Réponse rapide aux changements** : la capacité à réagir rapidement face aux imprévus techniques (incompatibilité matérielle, problème de configuration, changement de priorité) est essentielle pour respecter le délai de 5 semaines.
+
+----
+
+## Énoncé E2
+
+### Contexte
+
+Vous êtes responsable de l'informatique au sein d'un campus de formation professionnelle (en présentiel 😁).
+
+Le campus compte en permanence environ 500 personnes, entre les salariés (une quinzaine), les formateurs (freelances, formateurs occasionnels) et les apprenants (formation continue et alternance).
+
+La direction vous demande de moderniser l'infrastructure IT du campus pour accueillir de nouveaux services numériques : serveurs fichiers, NAS, firewall, VLAN et accès sécurisé Wi-Fi.
+
+Dans votre service, vous accueillez actuellement un alternant.
+
+### Consignes
+
+Hier vous avez créé la note de cadrage du projet.
+
+Aujourd'hui on vous demande de créer un WBS avec plusieurs niveaux de tâches :
+
+- Niveau 1 : grands lots (serveur, NAS, firewall, réseau)
+- Niveau 2-3 : tâches et sous-tâches
+
+### Notes
+
+- Vous pouvez utiliser les outils de votre choix pour la représentation graphique
+- Gardez bien le fichier : il servira pour la suite !
+- Prenez le temps de chercher de la documentation sur le sujet

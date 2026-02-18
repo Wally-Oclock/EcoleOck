@@ -701,18 +701,19 @@ Pour chaque calendrier, cliquer sur les **trois points** → **Partager** :
 
 ### 15.3 — Créer les événements test
 
-
-
 Dans le calendrier **Réunions Équipe** :
 
 - **Daily Standup Dev** : lundi au vendredi, 9h30–9h45, récurrent
+
 - **Rétrospective Sprint** : vendredi 16h–17h, récurrence toutes les 2 semaines
+
+  ![](Atelier-NextCloud.images/cald.jpg)
+
+  ![](Atelier-NextCloud.images/cald2s.jpg)
 
 ------
 
 ## Étape 16 — Création du board Kanban (Deck)
-
-
 
 Dans l'application **Deck** :
 
@@ -734,15 +735,13 @@ Dans l'application **Deck** :
 
 1. Partager le tableau avec tous les groupes.
 
+![](Atelier-NextCloud.images/deck.jpg)
+
 ------
 
 ## Étape 17 — Sécurisation (bonnes pratiques)
 
-
-
 ### 17.1 — Politique de mots de passe
-
-
 
 **Paramètres d'administration** → **Sécurité** :
 
@@ -752,9 +751,9 @@ Dans l'application **Deck** :
 -  Imposer les chiffres
 -  Imposer les caractères spéciaux *(optionnel mais recommandé)*
 
+![](Atelier-NextCloud.images/mdp.jpg)
+
 ### 17.2 — Partage externe sécurisé
-
-
 
 **Paramètres d'administration** → **Partage** :
 
@@ -762,15 +761,13 @@ Dans l'application **Deck** :
 -  **Date d'expiration par défaut** : 7 jours
 -  **Appliquer la date d'expiration** *(empêcher les liens permanents)*
 
+![](Atelier-NextCloud.images/mdpexter.jpg)
+
 ------
 
 ## Étape 18 — Tests de validation
 
-
-
 ### Test 1 — Isolation des permissions
-
-
 
 1. Ouvrir un navigateur en **navigation privée**
 2. Se connecter avec `hannah.prof` (Pédagogie)
@@ -782,8 +779,6 @@ Dans l'application **Deck** :
 
 ### Test 2 — Co-édition bureautique
 
-
-
 1. Ouvrir 2 navigateurs (ou un navigateur normal + un en privé)
 2. Session 1 : `alice.martin` | Session 2 : `bob.durand`
 3. Créer un fichier `.docx` dans `Commun`
@@ -791,8 +786,6 @@ Dans l'application **Deck** :
 5. Vérifier que les modifications apparaissent **en temps réel**
 
 ### Test 3 — Partage externe avec mot de passe
-
-
 
 1. Se connecter avec n'importe quel utilisateur
 2. Créer un fichier test dans `Commun`
@@ -802,8 +795,6 @@ Dans l'application **Deck** :
 
 ### Test 4 — Visioconférence
 
-
-
 1. Se connecter avec 2 utilisateurs dans 2 navigateurs
 2. Ouvrir la conversation **Général EduLearn** dans Talk
 3. Démarrer un **appel vidéo**
@@ -811,16 +802,12 @@ Dans l'application **Deck** :
 
 ### Test 5 — Calendrier partagé
 
-
-
 1. Session 1 (`alice.martin`) : créer un événement dans **Réunions Équipe**
 2. Session 2 (`charlie.dev`) : ouvrir le calendrier et vérifier que l'événement est visible
 
 ------
 
 ## Récapitulatif des identifiants à conserver
-
-
 
 | Élément          | Valeur                            |
 | ---------------- | --------------------------------- |
@@ -834,8 +821,6 @@ Dans l'application **Deck** :
 ------
 
 ## Dépannage courant
-
-
 
 | Problème                         | Solution                                                     |
 | -------------------------------- | ------------------------------------------------------------ |
